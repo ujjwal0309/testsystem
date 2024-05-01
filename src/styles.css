@@ -1,0 +1,106 @@
+
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .post-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .post-card {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 20%;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .post-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .remove-button {
+    background-color: #ff5050;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .page-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* FeedbackForm styles */
+  .feedback-form {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .feedback-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form label {
+    font-weight: bold;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .feedback-form .error {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+
+  .listening-button{
+    background-color: #007bff;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 200px;
+
+  }
